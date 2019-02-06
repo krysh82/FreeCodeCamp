@@ -1,0 +1,93 @@
+/*style de la Tribute Page*/
+
+body{
+	background-color: hsl(0, 0%, 98%);
+	margin: auto;
+	width: 80%;
+	font-family: Arial;
+}
+
+#title {
+	text-align: center;
+	font-size: 35px;
+	color: #804200;
+}
+
+#main {
+	background-color: hsl(0, 0%, 96%);
+	color: #804200;
+	font-size: 20px;
+}
+
+#img-div {
+	padding-top: 15px;
+	width: 100%;
+	background-color: blue;
+}
+
+@media {
+	img {
+		max-width: 100%;
+		display: block;
+		height: auto;
+	}
+}
+
+#image {
+	margin:auto;
+
+}
+
+#img-caption {
+	font-size: 12px;
+	margin-left: 250px;
+}
+
+/*fond de la div*/
+#tribute-info {
+	background-color: white;
+	padding: 0px 60px 10px 35px;
+	text-align: justify;
+	color: hsl(0, 0%, 25%);
+	font-size: 14px;
+	line-height: 1.5;
+}
+/*changement du paragraphe de la div #tribute-info*/
+div#tribute-info p {
+	font-weight: 500;
+	color: #4d4d4d;
+	margin-left: 35px;
+}
+/*suppression des bullets de la liste*/
+li {
+	list-style-type: none;
+	padding-top: 5px;
+}
+/*couleur des sous-titres des listes*/
+.color {
+	color: #b35c00;
+	font-weight: 600;
+	font-size: 15px;
+}
+/*definition de la couleur du lien*/
+#tribute-link {
+	color: #b35c00;
+}
+/*changement du lien au survol*/
+#tribute-link:hover {
+	color: green;
+	text-decoration: none;
+}
+/*pieds de page*/
+#footer {
+	height: 50px;
+	background-color: hsl(0, 0%, 98%);
+}
+/*personnalisation du text du footer*/
+#footer p {
+	font-size: 14px;
+	text-align: right;
+	color: #804200;
+	font-weight: 600;
+	padding: 10px 10px;
+}

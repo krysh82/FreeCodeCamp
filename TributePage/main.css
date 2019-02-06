@@ -1,0 +1,84 @@
+/*style de la Tribute Page*/
+
+body{
+	background-color: hsl(0, 0%, 98%);
+	margin: auto;
+	width: 80%;
+	font-family: Arial;
+}
+
+header {
+	text-align: center;
+}
+ 
+h1 {
+	font-size: 35px;
+}
+
+h2{
+	font-size: 20px;
+}
+h1, h2 {
+	color: #804200;
+}
+
+h2 a{
+	text-decoration: none;
+	color: #804200;
+}
+
+h2 a:visited{
+	color: #804200;
+}
+section {
+	background-color: white;
+	font-size: 14px;
+	line-height: 1.5;
+}
+#pic {
+	margin-left: 250px;
+	padding-top: 15px;
+}
+
+div#pic p {
+	font-size: 12px;
+}
+
+main {
+	padding: 0px 60px 10px 35px;
+	text-align: justify;
+	color: hsl(0, 0%, 25%);
+}
+
+main p {
+	font-weight: 500;
+	color: #4d4d4d;
+	margin-left: 35px;
+}
+li {
+	list-style-type: none;
+	padding-top: 5px;
+}
+/*couleur des sous-titres des listes*/
+.color {
+	color: #b35c00;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+li a {
+	color: #b35c00;
+
+}
+/*pieds de page*/
+footer {
+	height: 50px;
+}
+/*personnalisation du text du footer*/
+footer p {
+	font-size: 14px;
+	text-align: right;
+	color: #804200;
+	font-weight: 600;
+	padding: 10px 10px;
+}
