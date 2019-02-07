@@ -1,5 +1,5 @@
 body {
-	background-color: grey;
+	background-color: pink;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,52 +18,90 @@ body {
 
 #nav-bar {
 	margin:30px 20px 20px 20px;
-	background-color: white;
-	width: 30%;
+	width: 25%;
 	height: 20%;
+}
+
+#nav-bar ul {
+	background-color: white;
+}
+#nav-bar ul:hover {
+	background-color: pink;
 }
 
 #nav-bar li {
 	list-style-type: none;
 	display: inline-block;
 	margin: 15px;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 600;
 }
 
 .nav-link {
-	color: teal;
+	color: #367588;
 	text-decoration: none;
 }
 
-.nav-link:hover {
+/*.nav-link:hover {
 	background-color: white;
 	color: #96E3FA;
 	font-weight: 600;
-}
+}*/
 main {
-	background-color: red;
 	height: 1400px;
-	width: 80%;
+	width: 70%;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
-}
-#bloc1 {
-	height: 120px;
-	background-color: teal;	
+	margin-top: 10px;
 }
 
-#bloc1 h2{
-	text-align: center;
+#bloc1 {
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	background-color: #367588;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	border-radius: 10px;
 }
+
 
 #form {
-		margin-left: 430px;
+	width: 300px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#email {
+	height: 25px;
+	width: 250px;
+}
+
+#submit {
+	height: 35px;
+	width: 110px;
+	background-color: pink;
+	color: #367588;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 3px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
 }
 
 #features {
+	width: 80%;
+	margin: auto;
 	font-family: 'Muli', sans-serif;
 	font-size: 14px;
 	background-color: pink;
@@ -74,6 +112,7 @@ main {
 	height: 30%;
 	background-color: white;
 	margin: 10px;
+	border-radius: 5px;
 }
 
 .icon {
@@ -93,14 +132,14 @@ main {
 #how-it-works {
 	background-color: pink;
 	margin: 10px;
-	height: 450px;
+	height: 550px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 #video {
-	width: 600px;
+	width: 700px;
 	height: 400px;
 }
 
@@ -109,17 +148,87 @@ main {
 	width: 80%;
 	height: 40%;
 	margin: auto;
-	margin-top: 20px;
+	margin-bottom: 20px;
 	display: flex;
 	flex-direction: row;
+	font-family: 'Muli', sans-serif;
 }
+
 .bloc {
 	width: 30%;
 	background-color: white;
 	margin: auto;
-	height: 90%;
+	height: 80%;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.gray {
+	background-color: #DEDEDE;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#pricing .bloc .gray h2 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#pricing .bloc .text button {
+	background-color: pink;
+	border: none;
+	margin-top: 20px;
+	outline: none;
+
+}
+.btn {
+	height: 40px;
+	font-size: 1em;
+	border-radius: 2px;
+	text-transform: uppercase;
+	background: transparent;
+	cursor: pointer;
+}
+
+.indent {
+	font-weight: bold;
+	text-align: center;
+}
+
+#pricing .bloc ul li {
+	list-style-type: none;
+	line-height: 1.5;
 }
 
 footer {
 	background-color: aqua;
+	height: 70px;
+	font-size: 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer ul li {
+	list-style-type: none;
+	padding-right: 10px;
+	}
+
+footer ul li a {
+	text-decoration: none;
+	color: teal;
+	font-weight: 600;
+}
+footer p {
+	margin-right: 10px; 
 }
