@@ -3,6 +3,9 @@
 <head>
 	<title>Landing Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--add new fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 </head>
 <body>
 	<!--head of the webpage-->
@@ -12,9 +15,9 @@
 		<!--navigation bar on right to the top-->
 		<nav id="nav-bar">
 			<ul>
-				<li><a class="nav-link" href="features"> Features</a></li>
-				<li><a class="nav-link" href="how-it-works"> How It Works</a></li>
-				<li><a class="nav-link" href="pricing"> Pricing</a></li>
+				<li><a class="nav-link" href="#features"> Features</a></li>
+				<li><a class="nav-link" href="#how-it-works"> How It Works</a></li>
+				<li><a class="nav-link" href="#pricing"> Pricing</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -27,10 +30,38 @@
 				<input type="submit" id="submit" value="Get Started">
 			</form>
 		</div>
-		<div>
-			<video id="video" width="560" height="315" src="https://www.youtube.com/embed/POkQXeTv7-4" controls></video>
+		<div id="features">
+			<div class="grid">
+				<div class="icon">
+					<img src="pic3.png" alt="features">
+				</div>
+				<div>
+					<h2>Premium Materials</h2>
+					<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon"> <img src="pic3.png" alt="shipping"> </div>
+				<div>
+					<h2>Fast Shipping</h2>
+					<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon"><img src="pic3.png" alt="low"> </div>
+				<div>
+					<h2>Quality Assurance</h2>
+					<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+				</div>
+			</div>
 		</div>
-		<div id="bloc_central">
+		<div id="how-it-works">
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WBKnpyoFEBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<!--
+			<video id="video" width="560" height="315" src="https://www.youtube.com/embed/POkQXeTv7-4" controls></video>
+		-->
+		</div>
+		<div id="pricing">
 			<div class="bloc">Site Internet</div>
 			<div class="bloc">Site e-commerce</div>
 			<div class="bloc">Referencement</div>

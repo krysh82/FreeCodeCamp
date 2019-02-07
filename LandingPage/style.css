@@ -1,5 +1,6 @@
 body {
 	background-color: grey;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #header {
@@ -7,13 +8,16 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
 }
-#header-img {
 
+#header-img {
+	width: 200px;
+	height: 150px;
+	border-radius: 50%;
 }
 
 #nav-bar {
+	margin:30px 20px 20px 20px;
 	background-color: white;
 	width: 30%;
 	height: 20%;
@@ -22,7 +26,10 @@ body {
 #nav-bar li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 
+	margin: 15px;
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: 600;
 }
 
 .nav-link {
@@ -37,7 +44,7 @@ body {
 }
 main {
 	background-color: red;
-	height: 1200px;
+	height: 1400px;
 	width: 80%;
 	margin: auto;
 	display: flex;
@@ -45,26 +52,59 @@ main {
 }
 #bloc1 {
 	height: 120px;
-	background-color: teal;
-	
+	background-color: teal;	
 }
 
 #bloc1 h2{
 	text-align: center;
 }
+
 #form {
-		margin-left: 610px;
+		margin-left: 430px;
+}
+
+#features {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	background-color: pink;
+}
+
+.grid {
+	display: flex;
+	height: 30%;
+	background-color: white;
+	margin: 10px;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: 
+	width: 20vw;
+	padding: 20px 50px 20px 40px;
+}
+
+.description {
+	width: 80vw;
+	left: 100px;
+	padding-top: 10px;
+}
+
+#how-it-works {
+	background-color: pink;
+	margin: 10px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #video {
-	margin-top: 35px;
-	width: 800px;
-	height: 500px;
-	margin-left: 350px;
-
+	width: 600px;
+	height: 400px;
 }
 
-#bloc_central {
+#pricing {
 	background-color: pink;
 	width: 80%;
 	height: 40%;
@@ -81,5 +121,5 @@ main {
 }
 
 footer {
-	background-color: yellow;
+	background-color: aqua;
 }
